@@ -10,7 +10,15 @@
 
 <h3>Pluralizations</h3>
 
-<p><%= t(:results, :count => 1) %></p>
-<p><%= t(:results, :count => 2) %></p>
-<p><%= t(:results, :count => 3) %></p>
+<h4>Numbers</h4>
 
+<% (0..25).each do |i| %>
+<p><%= t(:results, :count => i) %></p>
+<% end %>
+
+<h4>Time localization</h4>
+
+<% from_time = Time.now %>
+<% (1..25).each do |m| %>
+<p><%= distance_of_time_in_words from_time, from_time + m.minutes %></p>
+<% end %>

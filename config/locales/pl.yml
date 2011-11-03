@@ -1,0 +1,12 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+pl:
+  i18n_underscore_key_test_with_translation: "Polish I18n underscore key test with translation"
+  'i18n String test with translation': "Polish I18n String test with translation"
+  results:
+    zero: 'no results (zero)'
+    one: '1 result (one)'
+    few: '%{count} results (few)'
+    many: '%{count} results (many)'
+    other: '%{count} results (other)'
