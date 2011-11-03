@@ -5,6 +5,7 @@ el:
   hello: "Γεια σου κόσμε"
   i18n_underscore_key_test_with_translation: "Μετάφραση με κλειδί και κατώπαβλες μέσω I18n"
   'i18n String test with translation': "Μετάφραση με συμβολοσειρά μέσω I18n"
+  both_gt_and_i18n_translation: "Μετάφραση σε πολλαπλά backend (αλλά το YML κερδίζει!)"
   results:
     one: '1 αποτέλεσμα'
     other: '%{count} αποτελέσματα'

@@ -5,6 +5,7 @@ en:
   hello: "Hello world"
   i18n_underscore_key_test_with_translation: "I18n underscore key test with translation"
   'i18n String test with translation': "I18n String test with translation"
+  both_gt_and_i18n_translation: "Ambiguous backend translation (YML rules!)"
   results:
     one: '1 result'
     other: '%{count} results'

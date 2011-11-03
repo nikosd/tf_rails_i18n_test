@@ -14,3 +14,19 @@
 <p><%= t(:results, :count => 2) %></p>
 <p><%= t(:results, :count => 3) %></p>
 
+<h2>Testing I18n localizations with Gettext backend</h2>
+
+<p><%= t(:gt_i18n_underscore_key_test_without_translation) %></p>
+<p><%= t('gt i18n String test without translation') %></p>
+
+<p><%= t(:gt_i18n_underscore_key_test_with_translation) %></p>
+<p><%= t('gt i18n String test with translation') %></p>
+
+<p><%= t(:both_gt_and_i18n_translation) %></p>
+
+
+<h3>Pluralizations</h3>
+
+<p><%= t(:gt_results, :count => 1) %></p>
+<p><%= t(:gt_results, :count => 2) %></p>
+<p><%= t(:gt_results, :count => 3) %></p>
