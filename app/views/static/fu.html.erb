@@ -4,5 +4,13 @@
 
 <p><%= t(:i18n_underscore_key_test_without_translation) %></p>
 <p><%= t('i18n String test without translation') %></p>
+
 <p><%= t(:i18n_underscore_key_test_with_translation) %></p>
 <p><%= t('i18n String test with translation') %></p>
+
+<h3>Pluralizations</h3>
+
+<p><%= t(:results, :count => 1) %></p>
+<p><%= t(:results, :count => 2) %></p>
+<p><%= t(:results, :count => 3) %></p>
+
