@@ -5,3 +5,6 @@ en:
   hello: "Hello world"
   i18n_underscore_key_test_with_translation: "I18n underscore key test with translation"
   'i18n String test with translation': "I18n String test with translation"
+  results:
+    one: '1 result'
+    other: '%{count} results'
