@@ -8,5 +8,4 @@ pl:
     zero: 'no results (zero)'
     one: '1 result (one)'
     few: '%{count} results (few)'
-    many: '%{count} results (many)'
     other: '%{count} results (other)'
