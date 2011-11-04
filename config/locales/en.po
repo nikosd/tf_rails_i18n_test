@@ -25,3 +25,27 @@ msgid "gt_results"
 msgid_plural "gt_results"
 msgstr[0] "1 gettext result"
 msgstr[1] "%{count} gettext results"
+
+msgid "Gimme text!"
+msgstr "Gimme text!"
+
+msgid "Scope|Gimme text!"
+msgstr "Gimme text in scope!"
+
+msgid "Context|Gimme text!"
+msgstr "Gimme text in context!"
+
+msgid "Gimme singular text!"
+msgid_plural "Gimme plural text for %{count}!"
+msgstr[0] "Gimme singular text!"
+msgstr[1] "Gimme plural text for %{count}!"
+
+msgid "Scope|Gimme singular text!"
+msgid_plural "Scope|Gimme plural text for %{count}!"
+msgstr[0] "Gimme singular text! (scoped)"
+msgstr[1] "Gimme plural text for %{count}! (scoped)"
+
+msgid "Context|Gimme singular text!"
+msgid_plural "Context|Gimme plural text for %{count}!"
+msgstr[0] "Gimme singular text! (in context)"
+msgstr[1] "Context|Gimme plural text for %{count}! (in context)"

@@ -42,4 +42,4 @@ require "pluralized_gettext_backend"
 I18n::Backend::Simple.send(:include, I18n::Backend::PluralizedGettext)
 I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml,po}')]
 
-#include I18n::Gettext::Helpers
+include I18n::Gettext::Helpers

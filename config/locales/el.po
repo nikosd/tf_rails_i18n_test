@@ -25,3 +25,27 @@ msgid "gt_results"
 msgid_plural "gt_results"
 msgstr[0] "1 αποτέλεσμα μέσω gettext"
 msgstr[1] "%{count} αποτελέσματα μέσω gettext"
+
+msgid "Gimme text!"
+msgstr "Δώσε μου κείμενο!"
+
+msgid "Scope|Gimme text!"
+msgstr "Δώσε μου κείμενο σε scope!"
+
+msgid "Context|Gimme text!"
+msgstr "Δώσε μου κείμενο σε context!"
+
+msgid "Gimme singular text!"
+msgid_plural "Gimme plural text for %{count}!"
+msgstr[0] "Δώσμου κείμενο σε ενικό"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count}"
+
+msgid "Scope|Gimme singular text!"
+msgid_plural "Scope|Gimme plural text for %{count}!"
+msgstr[0] "Δώσμου κείμενο σε ενικό (scoped)"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count} (scoped)"
+
+msgid "Context|Gimme singular text!"
+msgid_plural "Context|Gimme plural text for %{count}!"
+msgstr[0] "Δώσμου κείμενο σε ενικό (σε context)"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count} (σε context)"

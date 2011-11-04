@@ -42,3 +42,37 @@
 <h4>Time localization</h4>
 
 ...
+
+
+<h2>Testing Gettext localizations with Gettext backend</h2>
+
+<h3>Common Gettext methods</h3>
+
+<h4>Simple (_)</h4>
+<p><%= _('Gimme text!') %></p>
+
+<h4>Scoped (s_)</h4>
+<p><%= s_('Scope|Gimme text!') %></p>
+
+<h4>Scoped/Context (p_)</h4>
+<p><%= p_('Context', 'Gimme text!') %></p>
+
+<h4>Simple pluralization (n_)</h4>
+<% [0,1,3,8,100].each do |n| %>
+    <p><%= n_('Gimme singular text!', 'Gimme plural text for %{count}!', n) %></p>
+<% end %>
+
+<h4>Simple pluralization (ns_)</h4>
+<% [0,1,3,8,100].each do |n| %>
+    <p><%= ns_('Gimme singular text!', 'Gimme plural text for %{count}!', n) %></p>
+<% end %>
+
+<h4>Scoped pluralization (ns_)</h4>
+<% [0,1,3,8,100].each do |n| %>
+    <p><%= ns_('Scope|Gimme singular text!', 'Gimme plural text for %{count}!', n) %></p>
+<% end %>
+
+<h4>Scoped/In context pluralization (np_)</h4>
+<% [0,1,3,8,100].each do |n| %>
+    <p><%= np_('Context', 'Gimme singular text!', 'Gimme plural text for %{count}!', n) %></p>
+<% end %>
