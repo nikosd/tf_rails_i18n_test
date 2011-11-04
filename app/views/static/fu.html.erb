@@ -34,6 +34,11 @@
 
 <h3>Pluralizations</h3>
 
-<p><%= t(:gt_results, :count => 1) %></p>
-<p><%= t(:gt_results, :count => 2) %></p>
-<p><%= t(:gt_results, :count => 3) %></p>
+<h4>Numbers</h4>
+<% (0..25).each do |i| %>
+<p><%= t(:gt_results, :count => i) %></p>
+<% end %>
+
+<h4>Time localization</h4>
+
+...
