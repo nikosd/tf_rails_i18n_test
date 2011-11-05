@@ -12,8 +12,8 @@ gem 'json'
 gem 'rails-i18n'
 
 group :development do
-  gem 'gettext_i18n_rails', :require => false
-  gem 'gettext', '>=1.9.3', :require => false
+  # This is only needed for parsing the code and extracting the po files
+  gem 'gettext', '~> 2.1.0', :require => false
 end
 
 # Gems used only for assets and not required

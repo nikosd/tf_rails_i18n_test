@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
@@ -24,24 +23,24 @@ msgstr ""
 #: app/views/static/fu.html.erb:62 app/views/static/fu.html.erb:67
 msgid "Gimme singular text!"
 msgid_plural "Gimme plural text for %{count}!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Δώσμου κείμενο σε ενικό"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count}"
 
 #: app/views/static/fu.html.erb:77
 msgctxt "Context"
 msgid "Gimme singular text!"
 msgid_plural "Gimme plural text for %{count}!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Δώσμου κείμενο σε ενικό (σε context)"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count} (σε context)"
 
 #: app/views/static/fu.html.erb:52
 msgid "Gimme text!"
-msgstr ""
+msgstr "Δώσε μου κείμενο!"
 
 #: app/views/static/fu.html.erb:58
 msgctxt "Context"
 msgid "Gimme text!"
-msgstr ""
+msgstr "Δώσε μου κείμενο σε context!"
 
 #: app/views/static/fu.html.erb:81
 msgid "New gettext key!"
@@ -50,9 +49,9 @@ msgstr ""
 #: app/views/static/fu.html.erb:72
 msgid "Scope|Gimme singular text!"
 msgid_plural "Gimme plural text for %{count}!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Δώσμου κείμενο σε ενικό (scoped)"
+msgstr[1] "Δώσμου κείμενο σε πληθυντικό για το %{count} (scoped)"
 
 #: app/views/static/fu.html.erb:55
 msgid "Scope|Gimme text!"
-msgstr ""
+msgstr "Δώσε μου κείμενο σε scope!"

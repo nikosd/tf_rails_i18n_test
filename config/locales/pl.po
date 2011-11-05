@@ -26,30 +26,3 @@ msgid_plural "gt_results"
 msgstr[0] "Polish 1 gettext result (0)"
 msgstr[1] "Polish %{count} gettext results (1)"
 msgstr[2] "Polish %{count} gettext results (2)"
-
-msgid "Gimme text!"
-msgstr "Gimme text in Polish!"
-
-msgid "Scope|Gimme text!"
-msgstr "Gimme text in scope in Polish!"
-
-msgid "Context|Gimme text!"
-msgstr "Gimme text in context in Polish!"
-
-msgid "Gimme singular text!"
-msgid_plural "Gimme plural text for %{count}!"
-msgstr[0] "Gimme singular text in Polish!"
-msgstr[1] "Gimme plural text for %{count} in Polish (few)!"
-msgstr[2] "Gimme plural text for %{count} in Polish (other)!"
-
-msgid "Scope|Gimme singular text!"
-msgid_plural "Scope|Gimme plural text for %{count}!"
-msgstr[0] "Gimme singular text in Polish! (scoped)"
-msgstr[1] "Gimme plural text for %{count} in Polish (few)! (scoped)"
-msgstr[2] "Gimme plural text for %{count} in Polish (other)! (scoped)"
-
-msgid "Context|Gimme singular text!"
-msgid_plural "Context|Gimme plural text for %{count}!"
-msgstr[0] "Gimme singular text in Polish! (in context)"
-msgstr[1] "Context|Gimme plural text for %{count} in Polish (few)! (in context)"
-msgstr[2] "Context|Gimme plural text for %{count} in Polish (other)! (in context)"
