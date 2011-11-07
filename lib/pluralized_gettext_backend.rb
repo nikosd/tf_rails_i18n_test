@@ -59,28 +59,6 @@ module I18n
         super
       end
     end
-
-    # Monkey patched I18n::Backend::Gettext until https://github.com/svenfuchs/i18n/pull/117
-    # gets merged.
-    # TODO : Remove once the fix is merged!
-    module Gettext
-      def normalize(locale, data)
-          data.inject({}) do |result, (key, value)|
-            unless key.nil? || key.empty?
-              key = key.gsub(I18n::Gettext::CONTEXT_SEPARATOR, '|')
-              key, value = normalize_pluralization(locale, key, value) if key.index("\000")
-
-              parts = key.split('|').reverse
-              normalized = parts.inject({}) do |_normalized, part|
-                { part => _normalized.empty? ? value : _normalized }
-              end
-
-              result.deep_merge!(normalized)
-            end
-            result
-          end
-        end
-    end
   end
 
   module Gettext

@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 gem 'json'
 
+gem 'i18n', :git => 'https://github.com/svenfuchs/i18n.git'
 gem 'rails-i18n'
 
 # Gems used only for assets and not required
